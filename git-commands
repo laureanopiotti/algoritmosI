@@ -1,0 +1,19 @@
+#GIT commands
+
+0)Para traerme todo del repo (no hace falta pararse arriba)
+git pull https://github.com/laureanopiotti/TP3.git master
+
+1) Para agregar un archivo
+git add <archivo>
+
+#EJEMPLO, Agrega todos los archivos nuevos del directorio
+git add archivos/ 
+
+2) Desp de agregar el archivo hacer el commit 
+git commit <dir> -m “Mensaje descriptivo de commit.”
+
+#EJEMPLO, commitea el dir
+git commit archivos/ -m 'Mejora de barras'
+
+3)Hacer un push al master
+git push https://github.com/laureanopiotti/TP3.git master
