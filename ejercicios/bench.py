@@ -86,7 +86,7 @@ def main(cantidad):
 
     bench(lista_desordenada, quicksort, "Quicksort")
     bench(lista_desordenada, mergesort, "Mergesort")
-    bench(lista_ordenada, quicksort, "Quicksort Ordenado")
+    #bench(lista_ordenada, quicksort, "Quicksort Ordenado")
     bench(lista_desordenada, seleccion, "Seleccion")
     bench(lista_desordenada, insercion, "Insercion")
 

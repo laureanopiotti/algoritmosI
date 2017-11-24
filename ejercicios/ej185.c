@@ -18,8 +18,8 @@ void invertir(char *s) { // char s []
 }
 
 int main() {
-	char saludo[] = "Hola Mundo!";
+	char saludo[] = "HolaMundo!";
 	invertir(saludo);
-	printf("/n",saludo);
+	printf("%s/n",saludo);
 	return 0;
 }

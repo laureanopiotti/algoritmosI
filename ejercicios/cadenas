@@ -1,0 +1,5 @@
+
+
+3) char a[30] crea y reserva memoria para 30 caracteres
+4) char * a = 'hola' es conts NO HACER
+5) char a[] = 'hola' es igual a char a[5] = 'hola'
