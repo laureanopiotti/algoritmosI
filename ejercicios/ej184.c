@@ -52,18 +52,19 @@ int main() {
 #include <string.h>
 
 /* finds length of the given string using recursion */
-int stringLength(char *str, int len) {
-
-	if (*str != '\0') {
-	len++;
-	len = stringLength(str + 1, len);
+int lenloco(char str[], int len) {
+	if (str[len] != '\0') {
+		len++;
 	}
-	return len;
+	else {
+		return len;
+	}
+	return lenloco(str,len);
 }
 
 int main() {
 	char *str = "LOOOOOOOL", len = 0;
-	len = stringLength(str, len);
-	printf("Length of the given input string is %d\n", len);
+	len = lenloco(str, len);
+	printf("El largo de %s es %d\n", str,len);
 	return 0;
 }
